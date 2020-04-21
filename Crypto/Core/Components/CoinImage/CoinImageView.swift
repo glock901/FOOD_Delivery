@@ -11,4 +11,5 @@ struct CoinImageView: View {
 
     @StateObject var vm: CoinImageViewModel
 
-    init(coin: 
+    init(coin: CoinModel) {
+        self._vm = Sta
