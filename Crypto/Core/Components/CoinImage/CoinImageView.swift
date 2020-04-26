@@ -15,4 +15,6 @@ struct CoinImageView: View {
         self._vm = StateObject(wrappedValue: CoinImageViewModel(coin: coin))
     }
 
-    var body: some Vie
+    var body: some View {
+        ZStack {
+            if le
