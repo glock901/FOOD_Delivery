@@ -21,3 +21,6 @@ struct CoinImageView: View {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
+
+            } else if vm.isLoading {
+     
