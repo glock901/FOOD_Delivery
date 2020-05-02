@@ -18,4 +18,5 @@ struct CoinImageView: View {
     var body: some View {
         ZStack {
             if let image = vm.image {
-                Ima
+                Image(uiImage: image)
+                   
