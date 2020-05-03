@@ -23,4 +23,5 @@ struct CoinImageView: View {
                     .scaledToFit()
 
             } else if vm.isLoading {
-     
+                ProgressView()
+            } else {
