@@ -25,3 +25,4 @@ struct CoinImageView: View {
             } else if vm.isLoading {
                 ProgressView()
             } else {
+                Image(systemName: "questionmark")
