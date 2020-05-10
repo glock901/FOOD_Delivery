@@ -32,4 +32,5 @@ struct CoinImageView: View {
     }
 }
 
-struct CoinImageView_Previews: Pr
+struct CoinImageView_Previews: PreviewProvider {
+    static var previews: some 
