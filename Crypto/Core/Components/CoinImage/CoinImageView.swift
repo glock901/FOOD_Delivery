@@ -28,4 +28,8 @@ struct CoinImageView: View {
                 Image(systemName: "questionmark")
                     .foregroundColor(Color.theme.secondaryText)
             }
-        
+        }
+    }
+}
+
+struct CoinImageView_Previews: Pr
