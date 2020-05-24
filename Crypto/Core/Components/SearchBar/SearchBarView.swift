@@ -7,4 +7,6 @@
 
 import SwiftUI
 
-struct Searc
+struct SearchBarView: View {
+
+    @Binding var searchTe
