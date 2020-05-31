@@ -9,4 +9,7 @@ import SwiftUI
 
 struct SearchBarView: View {
 
-    @Binding var searchTe
+    @Binding var searchText: String
+
+    var body: some View {
+    
