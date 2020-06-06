@@ -15,4 +15,5 @@ struct SearchBarView: View {
         HStack {
             Image(systemName: "magnifyingglass")
                 .foregroundColor(
-                    searchText.isEmpty ? Color.t
+                    searchText.isEmpty ? Color.theme.secondaryText : Color.theme.accent
+             
