@@ -18,4 +18,4 @@ struct SearchBarView: View {
                     searchText.isEmpty ? Color.theme.secondaryText : Color.theme.accent
                 )
 
-            TextField("search by 
+            TextField("search by name or symbol...", text: $searchText
