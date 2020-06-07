@@ -19,4 +19,5 @@ struct SearchBarView: View {
                 )
 
             TextField("search by name or symbol...", text: $searchText)
-                .foregroundCol
+                .foregroundColor(Color.theme.accent)
+                .disab
