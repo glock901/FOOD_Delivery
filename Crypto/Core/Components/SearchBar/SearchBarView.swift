@@ -22,4 +22,4 @@ struct SearchBarView: View {
                 .foregroundColor(Color.theme.accent)
                 .disableAutocorrection(true)
                 .overlay(
-                  
+                    Image(systemName: "xmark.circle.fill"
