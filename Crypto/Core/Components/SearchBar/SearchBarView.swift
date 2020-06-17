@@ -24,4 +24,5 @@ struct SearchBarView: View {
                 .overlay(
                     Image(systemName: "xmark.circle.fill")
                         .padding()
-           
+                        .offset(x: 10)
+                  
