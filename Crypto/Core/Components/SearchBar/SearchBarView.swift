@@ -25,4 +25,5 @@ struct SearchBarView: View {
                     Image(systemName: "xmark.circle.fill")
                         .padding()
                         .offset(x: 10)
-                        .foregroundColor(Color.theme.accent
+                        .foregroundColor(Color.theme.accent)
+                        .opacity(searc
