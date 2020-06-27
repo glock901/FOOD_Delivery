@@ -26,4 +26,5 @@ struct SearchBarView: View {
                         .padding()
                         .offset(x: 10)
                         .foregroundColor(Color.theme.accent)
-                        .opacity(searc
+                        .opacity(searchText.isEmpty ? 0.0 : 1.0)
+              
