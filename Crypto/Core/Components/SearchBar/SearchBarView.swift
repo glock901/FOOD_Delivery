@@ -28,4 +28,5 @@ struct SearchBarView: View {
                         .foregroundColor(Color.theme.accent)
                         .opacity(searchText.isEmpty ? 0.0 : 1.0)
                         .onTapGesture {
-                            UIApplicat
+                            UIApplication.shared.endEditing()
+               
