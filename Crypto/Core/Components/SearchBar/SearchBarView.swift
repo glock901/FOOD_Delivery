@@ -30,4 +30,5 @@ struct SearchBarView: View {
                         .onTapGesture {
                             UIApplication.shared.endEditing()
                             searchText = ""
-            
+                        }
+                    ,alignment: .trai
