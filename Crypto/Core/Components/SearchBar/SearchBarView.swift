@@ -29,4 +29,5 @@ struct SearchBarView: View {
                         .opacity(searchText.isEmpty ? 0.0 : 1.0)
                         .onTapGesture {
                             UIApplication.shared.endEditing()
-               
+                            searchText = ""
+            
