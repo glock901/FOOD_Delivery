@@ -31,4 +31,8 @@ struct SearchBarView: View {
                             UIApplication.shared.endEditing()
                             searchText = ""
                         }
-                    ,alignment: .trai
+                    ,alignment: .trailing
+                )
+
+        }
+        .
