@@ -35,4 +35,6 @@ struct SearchBarView: View {
                 )
 
         }
-        .
+        .font(.headline)
+        .padding()
+        .b
