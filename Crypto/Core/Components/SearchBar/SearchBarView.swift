@@ -46,4 +46,5 @@ struct SearchBarView: View {
     }
 }
 
-struct SearchBarView_Pre
+struct SearchBarView_Previews: PreviewProvider {
+    static var prev
