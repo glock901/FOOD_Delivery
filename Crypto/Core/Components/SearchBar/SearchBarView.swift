@@ -49,4 +49,4 @@ struct SearchBarView: View {
 struct SearchBarView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-   
+            SearchBarView(searchText: .constant
