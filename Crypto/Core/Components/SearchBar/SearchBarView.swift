@@ -42,4 +42,8 @@ struct SearchBarView: View {
                 .fill(Color.theme.background)
                 .shadow(color: Color.theme.accent.opacity(0.05), radius: 10, x: 0, y: 0)
         )
-     
+        .padding()
+    }
+}
+
+struct SearchBarView_Pre
