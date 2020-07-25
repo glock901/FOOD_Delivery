@@ -1,3 +1,5 @@
 //
 //  StatisticView.swift
-//  Cryp
+//  Crypto
+//
+//  Created by Jonni Akesson on 2022-08-03.
