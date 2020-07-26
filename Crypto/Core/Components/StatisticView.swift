@@ -9,3 +9,5 @@ import SwiftUI
 
 struct StatisticView: View {
     let stat: StatisticModel
+    var body: some View {
+        VStack(al
