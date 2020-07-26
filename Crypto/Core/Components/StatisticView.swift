@@ -7,4 +7,5 @@
 
 import SwiftUI
 
-struct Statistic
+struct StatisticView: View {
+    let stat: StatisticModel
