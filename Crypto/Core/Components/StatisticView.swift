@@ -13,4 +13,5 @@ struct StatisticView: View {
         VStack(alignment: .leading, spacing: 4) {
             Text(stat.title)
                 .font(.caption)
-                .foregroundColor(C
+                .foregroundColor(Color.theme.secondaryText)
+            Tex
