@@ -12,4 +12,5 @@ struct StatisticView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(stat.title)
-              
+                .font(.caption)
+                .foregroundColor(C
