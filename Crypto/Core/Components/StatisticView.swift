@@ -11,4 +11,5 @@ struct StatisticView: View {
     let stat: StatisticModel
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-   
+            Text(stat.title)
+              
