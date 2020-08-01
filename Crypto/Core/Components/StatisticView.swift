@@ -14,4 +14,6 @@ struct StatisticView: View {
             Text(stat.title)
                 .font(.caption)
                 .foregroundColor(Color.theme.secondaryText)
-            Tex
+            Text(stat.value)
+                .font(.headline)
+   
