@@ -20,4 +20,5 @@ struct StatisticView: View {
             HStack(spacing: 4) {
                 Image(systemName: "triangle.fill")
                     .font(.caption2)
-    
+                    .rotationEffect(
+   
