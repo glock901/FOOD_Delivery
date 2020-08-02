@@ -16,4 +16,5 @@ struct StatisticView: View {
                 .foregroundColor(Color.theme.secondaryText)
             Text(stat.value)
                 .font(.headline)
-                .foregroundColor(Color.the
+                .foregroundColor(Color.theme.accent)
+            HStack(spacing: 4
