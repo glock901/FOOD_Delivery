@@ -17,4 +17,5 @@ struct StatisticView: View {
             Text(stat.value)
                 .font(.headline)
                 .foregroundColor(Color.theme.accent)
-            HStack(spacing: 4
+            HStack(spacing: 4) {
+                Image(systemName: "triangle
