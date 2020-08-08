@@ -21,4 +21,5 @@ struct StatisticView: View {
                 Image(systemName: "triangle.fill")
                     .font(.caption2)
                     .rotationEffect(
-                        Angle(degrees:(stat.percentageChange ?? 0) >= 0 ? 0 : 18
+                        Angle(degrees:(stat.percentageChange ?? 0) >= 0 ? 0 : 180))
+                Text(stat.percentage
