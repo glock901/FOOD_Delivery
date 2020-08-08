@@ -22,4 +22,5 @@ struct StatisticView: View {
                     .font(.caption2)
                     .rotationEffect(
                         Angle(degrees:(stat.percentageChange ?? 0) >= 0 ? 0 : 180))
-                Text(stat.percentage
+                Text(stat.percentageChange?.asPercentString() ?? "")
+       
