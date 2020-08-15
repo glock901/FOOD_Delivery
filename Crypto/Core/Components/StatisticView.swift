@@ -26,4 +26,4 @@ struct StatisticView: View {
                     .font(.caption)
                     .bold()
             }
-            .fore
+            .foregroundColor((stat.percentageChange ?? 0) >= 0
