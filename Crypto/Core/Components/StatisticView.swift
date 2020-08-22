@@ -32,4 +32,5 @@ struct StatisticView: View {
     }
 }
 
-struc
+struct StatisticView_Previews: PreviewProvider {
+   
