@@ -35,4 +35,5 @@ struct StatisticView: View {
 struct StatisticView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            StatisticVie
+            StatisticView(stat: dev.stat1)
+                .preferredColorSchem
