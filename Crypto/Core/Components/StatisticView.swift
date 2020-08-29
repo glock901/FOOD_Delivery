@@ -37,4 +37,5 @@ struct StatisticView_Previews: PreviewProvider {
         Group {
             StatisticView(stat: dev.stat1)
                 .preferredColorScheme(.dark)
-                .previewLayout(.sizeTha
+                .previewLayout(.sizeThatFits)
+            StatisticView(s
