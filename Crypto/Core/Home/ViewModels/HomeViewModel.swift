@@ -8,4 +8,6 @@
 import Foundation
 import Combine
 
-class HomeView
+class HomeViewModel: ObservableObject {
+
+    @Published var st
