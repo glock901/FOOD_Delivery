@@ -12,4 +12,5 @@ class HomeViewModel: ObservableObject {
 
     @Published var statistics: [StatisticModel] = []
     @Published var allCoins: [CoinModel] = []
-    @Published var por
+    @Published var portfolioCoins: [CoinModel] = []
+    @Published va
