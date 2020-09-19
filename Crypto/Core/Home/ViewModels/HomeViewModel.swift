@@ -16,4 +16,5 @@ class HomeViewModel: ObservableObject {
     @Published var searchText: String = ""
 
     private let coinDataService = CoinDataService()
-    private
+    private let marketDataService = MarketDataService()
+   
