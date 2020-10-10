@@ -26,4 +26,5 @@ class HomeViewModel: ObservableObject {
     func addSubscribers() {
         // updates all coins
         $searchText
-    
+            .combineLatest(coinDataService.$allCoins)
+     
