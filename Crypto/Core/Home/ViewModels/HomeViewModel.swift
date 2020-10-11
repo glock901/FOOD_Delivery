@@ -27,4 +27,5 @@ class HomeViewModel: ObservableObject {
         // updates all coins
         $searchText
             .combineLatest(coinDataService.$allCoins)
-            .debounce(for: .seconds(0.5), schedul
+            .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
+    
