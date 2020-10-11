@@ -28,4 +28,5 @@ class HomeViewModel: ObservableObject {
         $searchText
             .combineLatest(coinDataService.$allCoins)
             .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
-    
+            .map (filterCoins)
+            .sink { [weak sel
