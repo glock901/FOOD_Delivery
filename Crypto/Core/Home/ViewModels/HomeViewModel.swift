@@ -32,4 +32,6 @@ class HomeViewModel: ObservableObject {
             .sink { [weak self] returnedCoind in
                 self?.allCoins = returnedCoind
             }
-         
+            .store(in: &cancellables)
+
+        // updates mar
