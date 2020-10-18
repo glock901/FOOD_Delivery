@@ -34,4 +34,5 @@ class HomeViewModel: ObservableObject {
             }
             .store(in: &cancellables)
 
-        // updates mar
+        // updates market data
+        marketDataService.$market
