@@ -29,4 +29,5 @@ class HomeViewModel: ObservableObject {
             .combineLatest(coinDataService.$allCoins)
             .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
             .map (filterCoins)
-            .sink { [weak sel
+            .sink { [weak self] returnedCoind in
+                self?.al
