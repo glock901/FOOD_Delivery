@@ -30,4 +30,6 @@ class HomeViewModel: ObservableObject {
             .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
             .map (filterCoins)
             .sink { [weak self] returnedCoind in
-                self?.al
+                self?.allCoins = returnedCoind
+            }
+         
