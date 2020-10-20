@@ -35,4 +35,6 @@ class HomeViewModel: ObservableObject {
             .store(in: &cancellables)
 
         // updates market data
-        marketDataService.$market
+        marketDataService.$marketData
+            .map(marketData)
+            .sink { [we
