@@ -37,4 +37,5 @@ class HomeViewModel: ObservableObject {
         // updates market data
         marketDataService.$marketData
             .map(marketData)
-            .sink { [we
+            .sink { [weak self] returnedStats in
+                
