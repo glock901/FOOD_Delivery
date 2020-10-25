@@ -40,3 +40,7 @@ class HomeViewModel: ObservableObject {
             .sink { [weak self] returnedStats in
                 self?.statistics = returnedStats
             }
+            .store(in: &cancellables)
+    }
+
+ 
