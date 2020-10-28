@@ -43,4 +43,5 @@ class HomeViewModel: ObservableObject {
             .store(in: &cancellables)
     }
 
-    private func filterCoins(text: String, 
+    private func filterCoins(text: String, coins: [CoinModel]) -> [CoinModel] {
+      
