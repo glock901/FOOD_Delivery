@@ -46,4 +46,6 @@ class HomeViewModel: ObservableObject {
     private func filterCoins(text: String, coins: [CoinModel]) -> [CoinModel] {
         guard !text.isEmpty else { return coins }
 
-  
+        let lowerCaseText = text.lowercased()
+
+        ret
