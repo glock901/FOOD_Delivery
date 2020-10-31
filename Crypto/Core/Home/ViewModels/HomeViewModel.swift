@@ -48,4 +48,5 @@ class HomeViewModel: ObservableObject {
 
         let lowerCaseText = text.lowercased()
 
-        ret
+        return coins.filter { coin in
+            retu
