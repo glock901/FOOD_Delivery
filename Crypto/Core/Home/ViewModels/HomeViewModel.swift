@@ -49,4 +49,4 @@ class HomeViewModel: ObservableObject {
         let lowerCaseText = text.lowercased()
 
         return coins.filter { coin in
-            retu
+            return coin.name.lowercased().contains(lowerCaseTe
