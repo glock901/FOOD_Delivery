@@ -52,4 +52,7 @@ class HomeViewModel: ObservableObject {
             return coin.name.lowercased().contains(lowerCaseText) ||
             coin.symbol.lowercased().contains(lowerCaseText) ||
             coin.id.lowercased().contains(lowerCaseText)
-      
+        }
+    }
+
+    private func marketData(mark
