@@ -51,4 +51,5 @@ class HomeViewModel: ObservableObject {
         return coins.filter { coin in
             return coin.name.lowercased().contains(lowerCaseText) ||
             coin.symbol.lowercased().contains(lowerCaseText) ||
-    
+            coin.id.lowercased().contains(lowerCaseText)
+      
