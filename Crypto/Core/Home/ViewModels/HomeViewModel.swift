@@ -62,4 +62,4 @@ class HomeViewModel: ObservableObject {
             return stats
         }
 
-    
+        let marketCap = StatisticModel(titl
