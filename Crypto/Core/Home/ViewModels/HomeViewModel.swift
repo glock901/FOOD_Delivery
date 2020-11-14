@@ -56,4 +56,6 @@ class HomeViewModel: ObservableObject {
     }
 
     private func marketData(marketDataModel: MarketDataModel?) -> [StatisticModel] {
-        var stats: [StatisticModel] =
+        var stats: [StatisticModel] = []
+
+        guard let data = marketDataM
