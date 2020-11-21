@@ -63,4 +63,5 @@ class HomeViewModel: ObservableObject {
         }
 
         let marketCap = StatisticModel(title: "Market Cap", value: data.marketCap, percentageChange: data.marketCapChangePercentage24HUsd)
-        let volume = StatisticModel
+        let volume = StatisticModel(title: "24 Volume", value: data.volume)
+   
