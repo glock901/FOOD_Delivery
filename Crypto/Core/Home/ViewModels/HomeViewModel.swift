@@ -70,4 +70,6 @@ class HomeViewModel: ObservableObject {
 
         stats.append(contentsOf: [
             marketCap,
-            vol
+            volume,
+            dominance,
+      
