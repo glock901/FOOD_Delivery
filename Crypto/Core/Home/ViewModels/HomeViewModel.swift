@@ -72,4 +72,8 @@ class HomeViewModel: ObservableObject {
             marketCap,
             volume,
             dominance,
-      
+            portfolio
+        ])
+
+        return stats
+    }
