@@ -77,3 +77,4 @@ class HomeViewModel: ObservableObject {
 
         return stats
     }
+}
