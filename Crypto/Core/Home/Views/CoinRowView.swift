@@ -7,4 +7,6 @@
 
 import SwiftUI
 
-struc
+struct CoinRowView: View {
+
+    let coin: CoinM
