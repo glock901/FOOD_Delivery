@@ -10,4 +10,7 @@ import SwiftUI
 struct CoinRowView: View {
 
     let coin: CoinModel
-    let showHoldingColumns: B
+    let showHoldingColumns: Bool
+
+    var body: some View {
+        HStac
