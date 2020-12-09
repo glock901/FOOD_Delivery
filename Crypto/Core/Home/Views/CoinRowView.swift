@@ -16,4 +16,5 @@ struct CoinRowView: View {
         HStack {
             leftColumn
             Spacer()
-       
+            if showHoldingColumns {
+           
