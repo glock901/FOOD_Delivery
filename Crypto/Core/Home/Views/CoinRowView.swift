@@ -13,4 +13,7 @@ struct CoinRowView: View {
     let showHoldingColumns: Bool
 
     var body: some View {
-        HStac
+        HStack {
+            leftColumn
+            Spacer()
+       
