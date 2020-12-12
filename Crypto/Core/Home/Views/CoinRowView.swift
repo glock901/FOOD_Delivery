@@ -17,4 +17,6 @@ struct CoinRowView: View {
             leftColumn
             Spacer()
             if showHoldingColumns {
-           
+                centerColumn
+            }
+          
