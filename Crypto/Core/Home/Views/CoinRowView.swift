@@ -19,4 +19,6 @@ struct CoinRowView: View {
             if showHoldingColumns {
                 centerColumn
             }
-          
+            rightColumn
+        }
+        .font(.subheadlin
