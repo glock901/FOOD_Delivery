@@ -25,4 +25,5 @@ struct CoinRowView: View {
     }
 }
 
-struct CoinRowView_Previews: Pr
+struct CoinRowView_Previews: PreviewProvider {
+    static var prev
