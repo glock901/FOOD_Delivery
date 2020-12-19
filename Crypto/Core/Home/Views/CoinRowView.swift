@@ -21,4 +21,8 @@ struct CoinRowView: View {
             }
             rightColumn
         }
-        .font(.subheadlin
+        .font(.subheadline)
+    }
+}
+
+struct CoinRowView_Previews: Pr
