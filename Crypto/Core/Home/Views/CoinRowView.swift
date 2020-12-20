@@ -28,4 +28,4 @@ struct CoinRowView: View {
 struct CoinRowView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-        CoinR
+        CoinRowView(coin: dev.coin, showH
