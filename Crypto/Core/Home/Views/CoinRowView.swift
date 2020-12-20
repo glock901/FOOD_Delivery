@@ -26,4 +26,6 @@ struct CoinRowView: View {
 }
 
 struct CoinRowView_Previews: PreviewProvider {
-    static var prev
+    static var previews: some View {
+        Group {
+        CoinR
