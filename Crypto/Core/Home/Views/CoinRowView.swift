@@ -31,4 +31,4 @@ struct CoinRowView_Previews: PreviewProvider {
         CoinRowView(coin: dev.coin, showHoldingColumns: true)
             .previewLayout(.sizeThatFits)
             CoinRowView(coin: dev.coin, showHoldingColumns: true)
- 
+                .previewLayout(.sizeThatFi
