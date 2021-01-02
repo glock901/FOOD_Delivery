@@ -33,4 +33,9 @@ struct CoinRowView_Previews: PreviewProvider {
             CoinRowView(coin: dev.coin, showHoldingColumns: true)
                 .previewLayout(.sizeThatFits)
                 .preferredColorScheme(.dark)
-  
+        }
+    }
+}
+
+extension CoinRowView {
+    private var left
