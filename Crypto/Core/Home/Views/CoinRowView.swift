@@ -39,4 +39,5 @@ struct CoinRowView_Previews: PreviewProvider {
 
 extension CoinRowView {
     private var leftColumn: some View {
-        HStack(s
+        HStack(spacing: 0) {
+            Text("\(coin.rank)")
