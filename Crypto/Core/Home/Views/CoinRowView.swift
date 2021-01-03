@@ -41,3 +41,5 @@ extension CoinRowView {
     private var leftColumn: some View {
         HStack(spacing: 0) {
             Text("\(coin.rank)")
+                .font(.caption)
+                .foregro
