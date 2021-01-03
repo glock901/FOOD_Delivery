@@ -42,4 +42,5 @@ extension CoinRowView {
         HStack(spacing: 0) {
             Text("\(coin.rank)")
                 .font(.caption)
-                .foregro
+                .foregroundColor(Color.theme.secondaryText)
+          
