@@ -43,4 +43,5 @@ extension CoinRowView {
             Text("\(coin.rank)")
                 .font(.caption)
                 .foregroundColor(Color.theme.secondaryText)
-          
+                .frame(minWidth: 30)
+            Co
