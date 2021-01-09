@@ -44,4 +44,5 @@ extension CoinRowView {
                 .font(.caption)
                 .foregroundColor(Color.theme.secondaryText)
                 .frame(minWidth: 30)
-            Co
+            CoinImageView(coin: coin)
+               
