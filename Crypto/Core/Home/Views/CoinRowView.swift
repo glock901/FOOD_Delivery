@@ -54,4 +54,5 @@ extension CoinRowView {
     }
 
     private var centerColumn: some View {
-        VStac
+        VStack(alignment: .trailing) {
+            Te
