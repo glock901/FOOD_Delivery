@@ -53,4 +53,5 @@ extension CoinRowView {
         }
     }
 
-    private var
+    private var centerColumn: some View {
+        VStac
