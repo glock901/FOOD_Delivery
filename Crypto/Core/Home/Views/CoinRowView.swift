@@ -59,4 +59,7 @@ extension CoinRowView {
                 .bold()
             Text((coin.currentHoldings ?? 0).asNumberString())
         }
-        .foregroundColor
+        .foregroundColor(Color.theme.accent)
+    }
+
+    private var rig
