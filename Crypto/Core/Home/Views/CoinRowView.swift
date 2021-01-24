@@ -62,4 +62,5 @@ extension CoinRowView {
         .foregroundColor(Color.theme.accent)
     }
 
-    private var rig
+    private var rightColumn: some View {
+        VStack(a
