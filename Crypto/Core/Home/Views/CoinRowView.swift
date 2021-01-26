@@ -63,4 +63,5 @@ extension CoinRowView {
     }
 
     private var rightColumn: some View {
-        VStack(a
+        VStack(alignment: .trailing) {
+            Text(c
