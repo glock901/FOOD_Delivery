@@ -66,4 +66,5 @@ extension CoinRowView {
         VStack(alignment: .trailing) {
             Text(coin.currentPrice.asCurrencyWith6Decimals())
                 .foregroundColor(Color.theme.accent)
-            Text(coin.priceChangePercentage
+            Text(coin.priceChangePercentage24H?.asPercentString() ?? "")
+                .fore
