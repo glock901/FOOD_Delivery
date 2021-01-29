@@ -64,4 +64,4 @@ extension CoinRowView {
 
     private var rightColumn: some View {
         VStack(alignment: .trailing) {
-            Text(c
+            Text(coin.currentPrice.asCurrencyWith6Decimals())
