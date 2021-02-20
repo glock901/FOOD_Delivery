@@ -72,4 +72,5 @@ extension CoinRowView {
                     Color.theme.green :
                         Color.theme.red
                 )
-       
+        }
+        .frame(width: UIScreen.main.bou
