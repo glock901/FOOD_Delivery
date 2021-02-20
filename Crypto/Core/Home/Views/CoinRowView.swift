@@ -70,4 +70,6 @@ extension CoinRowView {
                 .foregroundColor(
                     (coin.priceChangePercentage24H ?? 0) >= 0 ?
                     Color.theme.green :
-                   
+                        Color.theme.red
+                )
+       
