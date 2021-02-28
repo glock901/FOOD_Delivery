@@ -7,4 +7,6 @@
 
 import SwiftUI
 
-struct 
+struct HomeStatsView: View {
+
+    @EnvironmentOb
