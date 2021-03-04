@@ -10,4 +10,6 @@ import SwiftUI
 struct HomeStatsView: View {
 
     @EnvironmentObject private var vm: HomeViewModel
-    @Binding 
+    @Binding var showPortfolio: Bool
+
+    var body: some Vi
