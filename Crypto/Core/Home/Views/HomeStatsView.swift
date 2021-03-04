@@ -9,4 +9,5 @@ import SwiftUI
 
 struct HomeStatsView: View {
 
-    @EnvironmentOb
+    @EnvironmentObject private var vm: HomeViewModel
+    @Binding 
