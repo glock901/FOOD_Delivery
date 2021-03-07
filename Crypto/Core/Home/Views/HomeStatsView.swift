@@ -15,4 +15,5 @@ struct HomeStatsView: View {
     var body: some View {
         HStack {
             ForEach(vm.statistics) { stat in
-                Stat
+                StatisticView(stat: stat)
+                    .fr
