@@ -19,4 +19,5 @@ struct HomeStatsView: View {
                     .frame(width: UIScreen.main.bounds.width / 3)
             }
         }
-        .frame(width: UIScreen.ma
+        .frame(width: UIScreen.main.bounds.width,
+               alignment: showPo
