@@ -25,4 +25,5 @@ struct HomeStatsView: View {
 }
 
 struct HomeStatsView_Previews: PreviewProvider {
-    static var previews:
+    static var previews: some View {
+        HomeStatsView(showPo
