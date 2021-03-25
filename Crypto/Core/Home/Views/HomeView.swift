@@ -7,4 +7,6 @@
 
 import SwiftUI
 
-struct HomeView: View
+struct HomeView: View {
+
+    @EnvironmentObject private var vm: HomeVi
