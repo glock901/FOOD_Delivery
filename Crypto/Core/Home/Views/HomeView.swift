@@ -9,4 +9,5 @@ import SwiftUI
 
 struct HomeView: View {
 
-    @EnvironmentObject private var vm: HomeVi
+    @EnvironmentObject private var vm: HomeViewModel
+    @State private var showPort
