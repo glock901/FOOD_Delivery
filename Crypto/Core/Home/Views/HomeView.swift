@@ -13,4 +13,6 @@ struct HomeView: View {
     @State private var showPortfilio: Bool = false // animate right
     @State private var showPortfilioView: Bool = false // new sheet
 
-    var body: some
+    var body: some View {
+        ZStack {
+            Colo
