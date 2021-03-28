@@ -15,4 +15,5 @@ struct HomeView: View {
 
     var body: some View {
         ZStack {
-            Colo
+            Color.theme.background
+                .ignores
