@@ -16,4 +16,5 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             Color.theme.background
-                .ignores
+                .ignoresSafeArea()
+                .sheet(isPresented: $show
