@@ -17,4 +17,5 @@ struct HomeView: View {
         ZStack {
             Color.theme.background
                 .ignoresSafeArea()
-                .sheet(isPresented: $show
+                .sheet(isPresented: $showPortfilioView) {
+                    Po
