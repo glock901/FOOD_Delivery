@@ -20,4 +20,6 @@ struct HomeView: View {
                 .sheet(isPresented: $showPortfilioView) {
                     PortfolioView()
                         .environmentObject(vm)
-          
+                }
+            VStack {
+                h
