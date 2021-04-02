@@ -22,4 +22,5 @@ struct HomeView: View {
                         .environmentObject(vm)
                 }
             VStack {
-                h
+                homeHeader
+                HomeStatsView
