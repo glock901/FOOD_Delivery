@@ -19,4 +19,5 @@ struct HomeView: View {
                 .ignoresSafeArea()
                 .sheet(isPresented: $showPortfilioView) {
                     PortfolioView()
-                
+                        .environmentObject(vm)
+          
