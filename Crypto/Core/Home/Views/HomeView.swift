@@ -24,4 +24,4 @@ struct HomeView: View {
             VStack {
                 homeHeader
                 HomeStatsView(showPortfolio: $showPortfilio)
-               
+                SearchBarView(searchText: $vm.searchText
