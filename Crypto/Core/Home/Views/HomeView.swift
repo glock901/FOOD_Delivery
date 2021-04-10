@@ -27,4 +27,5 @@ struct HomeView: View {
                 SearchBarView(searchText: $vm.searchText)
                 columnTitles
 
-      
+                if !showPortfilio {
+     
