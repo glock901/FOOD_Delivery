@@ -28,4 +28,5 @@ struct HomeView: View {
                 columnTitles
 
                 if !showPortfilio {
-     
+                    allCoinsList
+                    
