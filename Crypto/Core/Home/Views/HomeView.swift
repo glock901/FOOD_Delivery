@@ -29,4 +29,5 @@ struct HomeView: View {
 
                 if !showPortfilio {
                     allCoinsList
-                    
+                        .transition(.move(edge: .leading))
+     
