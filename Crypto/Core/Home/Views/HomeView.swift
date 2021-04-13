@@ -32,4 +32,5 @@ struct HomeView: View {
                         .transition(.move(edge: .leading))
                 }
 
-                if showPortfil
+                if showPortfilio {
+                    portfolioCoinsL
