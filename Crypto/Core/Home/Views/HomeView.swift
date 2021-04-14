@@ -33,4 +33,5 @@ struct HomeView: View {
                 }
 
                 if showPortfilio {
-                    portfolioCoinsL
+                    portfolioCoinsList
+                        .transition(.mov
