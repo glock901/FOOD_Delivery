@@ -42,4 +42,5 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: Previ
+struct HomeView_Previews: PreviewProvider {
+    static var previews: so
