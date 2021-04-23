@@ -48,4 +48,5 @@ struct HomeView_Previews: PreviewProvider {
             HomeView()
                 .navigationBarHidden(true)
         }
-        .preferr
+        .preferredColorScheme(.light)
+        .env
