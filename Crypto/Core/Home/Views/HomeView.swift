@@ -53,4 +53,5 @@ struct HomeView_Previews: PreviewProvider {
     }
 }
 
-extensi
+extension HomeView {
+    private var homeH
