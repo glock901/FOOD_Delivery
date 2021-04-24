@@ -49,4 +49,8 @@ struct HomeView_Previews: PreviewProvider {
                 .navigationBarHidden(true)
         }
         .preferredColorScheme(.light)
-        .env
+        .environmentObject(dev.homeVM)
+    }
+}
+
+extensi
