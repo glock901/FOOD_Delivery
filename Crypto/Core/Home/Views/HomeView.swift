@@ -54,4 +54,6 @@ struct HomeView_Previews: PreviewProvider {
 }
 
 extension HomeView {
-    private var homeH
+    private var homeHeader: some View {
+        HStack {
+            Circ
