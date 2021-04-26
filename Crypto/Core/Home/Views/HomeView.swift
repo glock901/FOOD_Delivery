@@ -56,4 +56,5 @@ struct HomeView_Previews: PreviewProvider {
 extension HomeView {
     private var homeHeader: some View {
         HStack {
-            CircleButtonView(iconName: showPortfilio
+            CircleButtonView(iconName: showPortfilio ? "plus" : "info")
+                .transaction { tran
