@@ -57,4 +57,5 @@ extension HomeView {
     private var homeHeader: some View {
         HStack {
             CircleButtonView(iconName: showPortfilio ? "plus" : "info")
-                .transaction { tran
+                .transaction { transaction in
+                    transaction.animation 
