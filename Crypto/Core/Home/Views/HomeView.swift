@@ -60,4 +60,5 @@ extension HomeView {
                 .transaction { transaction in
                     transaction.animation = nil
                 }
-                .o
+                .onTapGesture {
+                    if showPort
