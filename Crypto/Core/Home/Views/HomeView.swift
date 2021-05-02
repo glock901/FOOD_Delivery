@@ -61,4 +61,5 @@ extension HomeView {
                     transaction.animation = nil
                 }
                 .onTapGesture {
-                    if showPort
+                    if showPortfilio {
+                        showPortfilioView.togg
