@@ -58,4 +58,6 @@ extension HomeView {
         HStack {
             CircleButtonView(iconName: showPortfilio ? "plus" : "info")
                 .transaction { transaction in
-                    transaction.animation 
+                    transaction.animation = nil
+                }
+                .o
