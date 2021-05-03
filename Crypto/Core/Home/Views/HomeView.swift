@@ -62,4 +62,6 @@ extension HomeView {
                 }
                 .onTapGesture {
                     if showPortfilio {
-                        showPortfilioView.togg
+                        showPortfilioView.toggle()
+                    }
+                }
