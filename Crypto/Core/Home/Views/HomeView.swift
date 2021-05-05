@@ -65,3 +65,5 @@ extension HomeView {
                         showPortfilioView.toggle()
                     }
                 }
+                .background(
+                 
