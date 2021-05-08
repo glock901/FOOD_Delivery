@@ -66,4 +66,4 @@ extension HomeView {
                     }
                 }
                 .background(
-                 
+                    CircleButtonAnimationView(animate: $showPortfi
