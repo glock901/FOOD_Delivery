@@ -66,4 +66,6 @@ extension HomeView {
                     }
                 }
                 .background(
-                    CircleButtonAnimationView(animate: $showPortfi
+                    CircleButtonAnimationView(animate: $showPortfilio)
+                )
+            Spacer()
