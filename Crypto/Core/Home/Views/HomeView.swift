@@ -69,3 +69,4 @@ extension HomeView {
                     CircleButtonAnimationView(animate: $showPortfilio)
                 )
             Spacer()
+            Text(showPortfilio ? "
