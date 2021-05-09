@@ -69,4 +69,6 @@ extension HomeView {
                     CircleButtonAnimationView(animate: $showPortfilio)
                 )
             Spacer()
-            Text(showPortfilio ? "
+            Text(showPortfilio ? "Portfolio" : "Live Prices")
+                .font(.headline)
+       
