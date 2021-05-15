@@ -71,4 +71,5 @@ extension HomeView {
             Spacer()
             Text(showPortfilio ? "Portfolio" : "Live Prices")
                 .font(.headline)
-       
+                .fontWeight(.heavy)
+         
