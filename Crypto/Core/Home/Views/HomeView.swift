@@ -72,4 +72,4 @@ extension HomeView {
             Text(showPortfilio ? "Portfolio" : "Live Prices")
                 .font(.headline)
                 .fontWeight(.heavy)
-         
+                .foregroundColor(Color.theme.ac
