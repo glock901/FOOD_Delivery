@@ -74,4 +74,5 @@ extension HomeView {
                 .fontWeight(.heavy)
                 .foregroundColor(Color.theme.accent)
                 .transaction { transaction in
-                    transaction.an
+                    transaction.animation = nil
+               
