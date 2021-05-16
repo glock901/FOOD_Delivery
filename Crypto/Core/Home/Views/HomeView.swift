@@ -73,4 +73,5 @@ extension HomeView {
                 .font(.headline)
                 .fontWeight(.heavy)
                 .foregroundColor(Color.theme.accent)
-                .transacti
+                .transaction { transaction in
+                    transaction.an
