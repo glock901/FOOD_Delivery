@@ -77,4 +77,5 @@ extension HomeView {
                     transaction.animation = nil
                 }
             Spacer()
-            CircleBu
+            CircleButtonView(iconName: "chevron.right")
+             
