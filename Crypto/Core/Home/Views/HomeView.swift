@@ -75,4 +75,6 @@ extension HomeView {
                 .foregroundColor(Color.theme.accent)
                 .transaction { transaction in
                     transaction.animation = nil
-               
+                }
+            Spacer()
+            CircleBu
