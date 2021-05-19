@@ -78,4 +78,4 @@ extension HomeView {
                 }
             Spacer()
             CircleButtonView(iconName: "chevron.right")
-             
+                .rotationEffect(Angle(degrees: showPortfilio ? 1
