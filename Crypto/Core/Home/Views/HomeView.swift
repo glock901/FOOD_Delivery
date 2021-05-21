@@ -78,4 +78,6 @@ extension HomeView {
                 }
             Spacer()
             CircleButtonView(iconName: "chevron.right")
-                .rotationEffect(Angle(degrees: showPortfilio ? 1
+                .rotationEffect(Angle(degrees: showPortfilio ? 180 : 0))
+                .onTapGesture {
+              
