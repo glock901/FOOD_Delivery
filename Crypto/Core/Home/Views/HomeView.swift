@@ -81,4 +81,5 @@ extension HomeView {
                 .rotationEffect(Angle(degrees: showPortfilio ? 180 : 0))
                 .onTapGesture {
                     withAnimation(.spring()) {
-            
+                        showPortfilio.toggle()
+      
