@@ -82,4 +82,7 @@ extension HomeView {
                 .onTapGesture {
                     withAnimation(.spring()) {
                         showPortfilio.toggle()
-      
+                    }
+                }
+        }
+ 
