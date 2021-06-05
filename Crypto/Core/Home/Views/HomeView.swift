@@ -90,4 +90,5 @@ extension HomeView {
 
     private var allCoinsList: some View {
         List {
-            ForEach(vm.al
+            ForEach(vm.allCoins) { coin in
+                CoinRowView(co
