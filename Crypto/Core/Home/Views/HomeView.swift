@@ -92,4 +92,4 @@ extension HomeView {
         List {
             ForEach(vm.allCoins) { coin in
                 CoinRowView(coin: coin, showHoldingColumns: false)
-       
+                    .listRowInsets(EdgeInsets(top: 10, leading
