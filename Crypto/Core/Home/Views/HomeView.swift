@@ -91,4 +91,5 @@ extension HomeView {
     private var allCoinsList: some View {
         List {
             ForEach(vm.allCoins) { coin in
-                CoinRowView(co
+                CoinRowView(coin: coin, showHoldingColumns: false)
+       
