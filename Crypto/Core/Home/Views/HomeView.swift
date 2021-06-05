@@ -89,4 +89,5 @@ extension HomeView {
     }
 
     private var allCoinsList: some View {
-        
+        List {
+            ForEach(vm.al
