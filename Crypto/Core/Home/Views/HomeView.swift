@@ -96,4 +96,6 @@ extension HomeView {
             }
         }
         .listStyle(.plain)
-    
+    }
+
+    private var portfolioCoinsLis
