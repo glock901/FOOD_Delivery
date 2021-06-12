@@ -100,4 +100,5 @@ extension HomeView {
 
     private var portfolioCoinsList: some View {
         List {
-            F
+            ForEach(vm.portfolioCoins) { coin in
+   
