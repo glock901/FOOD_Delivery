@@ -98,4 +98,6 @@ extension HomeView {
         .listStyle(.plain)
     }
 
-    private var portfolioCoinsLis
+    private var portfolioCoinsList: some View {
+        List {
+            F
