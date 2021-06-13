@@ -105,4 +105,7 @@ extension HomeView {
                     .listRowInsets(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 10))
             }
         }
-        .listS
+        .listStyle(.plain)
+    }
+
+    private v
