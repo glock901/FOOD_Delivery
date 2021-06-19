@@ -108,4 +108,5 @@ extension HomeView {
         .listStyle(.plain)
     }
 
-    private v
+    private var columnTitles: some View {
+        HStack {
