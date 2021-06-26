@@ -110,3 +110,6 @@ extension HomeView {
 
     private var columnTitles: some View {
         HStack {
+            Text("Coins")
+            Spacer()
+         
