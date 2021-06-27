@@ -112,4 +112,5 @@ extension HomeView {
         HStack {
             Text("Coins")
             Spacer()
-         
+            if showPortfilio {
+                Text("Ho
