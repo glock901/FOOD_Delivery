@@ -113,4 +113,6 @@ extension HomeView {
             Text("Coins")
             Spacer()
             if showPortfilio {
-                Text("Ho
+                Text("Holdings")
+            }
+            Te
