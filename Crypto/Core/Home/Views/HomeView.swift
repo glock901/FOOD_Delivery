@@ -115,4 +115,5 @@ extension HomeView {
             if showPortfilio {
                 Text("Holdings")
             }
-            Te
+            Text("Price")
+                .frame(width: 
