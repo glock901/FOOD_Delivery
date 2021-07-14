@@ -116,4 +116,6 @@ extension HomeView {
                 Text("Holdings")
             }
             Text("Price")
-                .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .tr
+                .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
+        }
+        .font(.capt
