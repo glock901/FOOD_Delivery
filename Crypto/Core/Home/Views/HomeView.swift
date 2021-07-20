@@ -120,4 +120,6 @@ extension HomeView {
         }
         .font(.caption)
         .foregroundColor(Color.theme.secondaryText)
-        .padding(.hori
+        .padding(.horizontal)
+    }
+}
