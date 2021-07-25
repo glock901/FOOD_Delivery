@@ -10,4 +10,5 @@ import SwiftUI
 struct PortfolioView: View {
 
     @Environment(\.dismiss) var dismiss
-    @EnvironmentObject private 
+    @EnvironmentObject private var vm: HomeViewModel
+    @State private var s
