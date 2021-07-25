@@ -11,4 +11,5 @@ struct PortfolioView: View {
 
     @Environment(\.dismiss) var dismiss
     @EnvironmentObject private var vm: HomeViewModel
-    @State private var s
+    @State private var selectedCoin: CoinModel? = nil
+    @State priva
