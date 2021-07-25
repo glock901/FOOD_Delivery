@@ -7,4 +7,6 @@
 
 import SwiftUI
 
-struct PortfolioVi
+struct PortfolioView: View {
+
+    @Environment(\.dismiss) va
