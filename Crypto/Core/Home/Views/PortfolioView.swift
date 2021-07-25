@@ -9,4 +9,5 @@ import SwiftUI
 
 struct PortfolioView: View {
 
-    @Environment(\.dismiss) va
+    @Environment(\.dismiss) var dismiss
+    @EnvironmentObject private 
