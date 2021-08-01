@@ -14,4 +14,6 @@ struct PortfolioView: View {
     @State private var selectedCoin: CoinModel? = nil
     @State private var quantityText: String = ""
     @State private var animate = false
-    @State private va
+    @State private var showCheckmark = false
+
+    var body: some Vie
