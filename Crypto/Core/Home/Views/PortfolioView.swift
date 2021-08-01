@@ -19,4 +19,5 @@ struct PortfolioView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                VStack(alignment: .leading, s
+                VStack(alignment: .leading, spacing: 0) {
+                    SearchBarView(s
