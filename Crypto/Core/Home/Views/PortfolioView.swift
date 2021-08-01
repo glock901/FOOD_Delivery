@@ -16,4 +16,6 @@ struct PortfolioView: View {
     @State private var animate = false
     @State private var showCheckmark = false
 
-    var body: some Vie
+    var body: some View {
+        NavigationView {
+            Sc
