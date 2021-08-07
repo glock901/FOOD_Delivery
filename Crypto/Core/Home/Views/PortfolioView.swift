@@ -20,4 +20,5 @@ struct PortfolioView: View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading, spacing: 0) {
-                    SearchBarView(s
+                    SearchBarView(searchText: $vm.searchText)
+                    coin
