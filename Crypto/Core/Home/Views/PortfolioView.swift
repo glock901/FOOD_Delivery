@@ -25,4 +25,7 @@ struct PortfolioView: View {
 
                     if selectedCoin != nil {
                         portfolioSection
-               
+                    }
+                }
+            }
+        
