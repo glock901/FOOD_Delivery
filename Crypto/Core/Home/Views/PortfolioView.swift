@@ -28,4 +28,5 @@ struct PortfolioView: View {
                     }
                 }
             }
-        
+            .navigationTitle("Edit Portfolio")
+         
