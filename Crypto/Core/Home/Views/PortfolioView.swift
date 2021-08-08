@@ -23,4 +23,6 @@ struct PortfolioView: View {
                     SearchBarView(searchText: $vm.searchText)
                     coinLogogList
 
-                    if selectedCoin != n
+                    if selectedCoin != nil {
+                        portfolioSection
+               
