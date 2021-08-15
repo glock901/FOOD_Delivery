@@ -30,4 +30,5 @@ struct PortfolioView: View {
             }
             .navigationTitle("Edit Portfolio")
             .toolbar {
-                ToolbarIte
+                ToolbarItem(placement: .navigationBarLeading) {
+  
