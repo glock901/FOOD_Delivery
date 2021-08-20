@@ -32,4 +32,5 @@ struct PortfolioView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
-                      
+                        dismiss()
+                    } l
