@@ -33,4 +33,5 @@ struct PortfolioView: View {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
                         dismiss()
-                    } l
+                    } label: {
+                        Image(syste
