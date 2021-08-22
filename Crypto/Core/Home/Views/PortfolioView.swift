@@ -34,4 +34,5 @@ struct PortfolioView: View {
                     Button {
                         dismiss()
                     } label: {
-                        Image(syste
+                        Image(systemName: "xmark")
+                            .font
