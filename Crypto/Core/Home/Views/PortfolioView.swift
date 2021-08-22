@@ -35,4 +35,7 @@ struct PortfolioView: View {
                         dismiss()
                     } label: {
                         Image(systemName: "xmark")
-                            .font
+                            .font(.headline)
+                    }
+
+    
