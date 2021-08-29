@@ -39,4 +39,5 @@ struct PortfolioView: View {
                     }
 
                 }
-                ToolbarIte
+                ToolbarItem(placement: .navigationBarTrailing) {
+    
