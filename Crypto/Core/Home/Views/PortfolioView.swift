@@ -41,3 +41,7 @@ struct PortfolioView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     trailingNavBarButtonsView
+                }
+            }
+        }
+ 
