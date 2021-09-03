@@ -44,4 +44,7 @@ struct PortfolioView: View {
                 }
             }
         }
- 
+    }
+}
+
+struct PortfolioView_Previews: 
