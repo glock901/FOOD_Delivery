@@ -47,4 +47,5 @@ struct PortfolioView: View {
     }
 }
 
-struct PortfolioView_Previews: 
+struct PortfolioView_Previews: PreviewProvider {
+    static var previews: some View 
