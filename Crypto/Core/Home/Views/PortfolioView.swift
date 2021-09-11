@@ -50,4 +50,8 @@ struct PortfolioView: View {
 struct PortfolioView_Previews: PreviewProvider {
     static var previews: some View {
         PortfolioView()
-        
+            .environmentObject(dev.homeVM)
+    }
+}
+
+ex
