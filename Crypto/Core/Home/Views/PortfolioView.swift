@@ -54,4 +54,5 @@ struct PortfolioView_Previews: PreviewProvider {
     }
 }
 
-ex
+extension PortfolioView {
+    private var
