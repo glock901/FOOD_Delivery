@@ -56,4 +56,5 @@ struct PortfolioView_Previews: PreviewProvider {
 
 extension PortfolioView {
     private var coinLogogList: some View {
-        ScrollVie
+        ScrollView(.horizontal, showsIndicators: false) {
+           
