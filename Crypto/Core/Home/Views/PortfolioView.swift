@@ -59,4 +59,5 @@ extension PortfolioView {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHStack(spacing: 10) {
                 ForEach(vm.allCoins) { coin in
-        
+                    CoinLogoView(coin: coin)
+                        .f
