@@ -62,4 +62,5 @@ extension PortfolioView {
                     CoinLogoView(coin: coin)
                         .frame(width: 75)
                         .padding(4)
+                        .onTapGesture {
                    
