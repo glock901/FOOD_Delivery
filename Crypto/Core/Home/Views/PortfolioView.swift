@@ -61,4 +61,5 @@ extension PortfolioView {
                 ForEach(vm.allCoins) { coin in
                     CoinLogoView(coin: coin)
                         .frame(width: 75)
-                        .padd
+                        .padding(4)
+                   
