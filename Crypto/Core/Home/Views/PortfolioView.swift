@@ -63,4 +63,5 @@ extension PortfolioView {
                         .frame(width: 75)
                         .padding(4)
                         .onTapGesture {
-                   
+                            withAnimation(.easeIn) {
+   
