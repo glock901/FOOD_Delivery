@@ -64,4 +64,4 @@ extension PortfolioView {
                         .padding(4)
                         .onTapGesture {
                             withAnimation(.easeIn) {
-   
+                                selectedCoin = coin
