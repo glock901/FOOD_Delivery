@@ -66,4 +66,5 @@ extension PortfolioView {
                             withAnimation(.easeIn) {
                                 selectedCoin = coin
                             }
-           
+                        }
+                        .backgroun
