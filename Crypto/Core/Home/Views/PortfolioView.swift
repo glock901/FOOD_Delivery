@@ -65,3 +65,5 @@ extension PortfolioView {
                         .onTapGesture {
                             withAnimation(.easeIn) {
                                 selectedCoin = coin
+                            }
+           
