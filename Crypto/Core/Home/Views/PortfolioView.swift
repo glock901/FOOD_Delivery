@@ -67,4 +67,5 @@ extension PortfolioView {
                                 selectedCoin = coin
                             }
                         }
-                        .backgroun
+                        .background(
+                            Rou
