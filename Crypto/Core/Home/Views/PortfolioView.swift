@@ -68,4 +68,5 @@ extension PortfolioView {
                             }
                         }
                         .background(
-                            Rou
+                            RoundedRectangle(cornerRadius: 10)
+     
