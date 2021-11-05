@@ -69,4 +69,4 @@ extension PortfolioView {
                         }
                         .background(
                             RoundedRectangle(cornerRadius: 10)
-     
+                                .stroke(sele
