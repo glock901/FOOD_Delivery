@@ -69,4 +69,5 @@ extension PortfolioView {
                         }
                         .background(
                             RoundedRectangle(cornerRadius: 10)
-                                .stroke(sele
+                                .stroke(selectedCoin?.id == coin.id ?
+                 
