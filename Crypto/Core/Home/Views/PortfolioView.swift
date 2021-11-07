@@ -72,4 +72,6 @@ extension PortfolioView {
                                 .stroke(selectedCoin?.id == coin.id ?
                                         Color.theme.green : Color.clear,
                                         lineWidth: 1)
-       
+                        )
+                }
+     
