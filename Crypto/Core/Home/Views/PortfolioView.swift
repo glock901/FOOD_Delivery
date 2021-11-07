@@ -70,4 +70,4 @@ extension PortfolioView {
                         .background(
                             RoundedRectangle(cornerRadius: 10)
                                 .stroke(selectedCoin?.id == coin.id ?
-                 
+                                        Color.theme.green 
