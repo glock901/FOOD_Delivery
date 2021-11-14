@@ -76,3 +76,5 @@ extension PortfolioView {
                 }
             }
             .frame(height: 120)
+            .padding(.leading)
+        }
