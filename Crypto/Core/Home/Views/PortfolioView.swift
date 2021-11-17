@@ -80,4 +80,5 @@ extension PortfolioView {
         }
     }
 
-    private func getCurren
+    private func getCurrentValue() -> Double {
+        if let quantity = D
