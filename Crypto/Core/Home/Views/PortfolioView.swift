@@ -81,4 +81,5 @@ extension PortfolioView {
     }
 
     private func getCurrentValue() -> Double {
-        if let quantity = D
+        if let quantity = Double(quantityText) {
+            return qu
