@@ -87,4 +87,5 @@ extension PortfolioView {
         return 0
     }
 
-    private var portfo
+    private var portfolioSection: some View {
+        VStack(s
