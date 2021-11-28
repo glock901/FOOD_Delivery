@@ -84,4 +84,7 @@ extension PortfolioView {
         if let quantity = Double(quantityText) {
             return quantity * (selectedCoin?.currentPrice ?? 0)
         }
-    
+        return 0
+    }
+
+    private var portfo
