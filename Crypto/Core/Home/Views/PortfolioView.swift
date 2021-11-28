@@ -82,4 +82,6 @@ extension PortfolioView {
 
     private func getCurrentValue() -> Double {
         if let quantity = Double(quantityText) {
-            return qu
+            return quantity * (selectedCoin?.currentPrice ?? 0)
+        }
+    
