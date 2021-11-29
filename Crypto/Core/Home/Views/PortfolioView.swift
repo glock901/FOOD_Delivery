@@ -88,4 +88,6 @@ extension PortfolioView {
     }
 
     private var portfolioSection: some View {
-        VStack(s
+        VStack(spacing: 20) {
+            HStack() {
+                Text
