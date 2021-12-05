@@ -90,4 +90,5 @@ extension PortfolioView {
     private var portfolioSection: some View {
         VStack(spacing: 20) {
             HStack() {
-                Text("Current price of \(selectedCoin?.symbol
+                Text("Current price of \(selectedCoin?.symbol.uppercased() ?? ""):")
+                Spacer()
