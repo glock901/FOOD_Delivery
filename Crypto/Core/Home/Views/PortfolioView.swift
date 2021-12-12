@@ -95,4 +95,5 @@ extension PortfolioView {
                 Text(selectedCoin?.currentPrice.asCurrencyWith6Decimals() ?? "")
             }
             Divider()
-            HStack
+            HStack {
+                Text("Amount holdin
