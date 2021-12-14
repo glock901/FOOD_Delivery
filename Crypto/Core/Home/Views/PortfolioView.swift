@@ -96,4 +96,6 @@ extension PortfolioView {
             }
             Divider()
             HStack {
-                Text("Amount holdin
+                Text("Amount holding:")
+                Spacer()
+                TextF
