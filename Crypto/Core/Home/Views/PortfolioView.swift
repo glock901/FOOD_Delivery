@@ -98,4 +98,5 @@ extension PortfolioView {
             HStack {
                 Text("Amount holding:")
                 Spacer()
-                TextField("Ex: 1.4", text: $quant
+                TextField("Ex: 1.4", text: $quantityText)
+                    .multili
