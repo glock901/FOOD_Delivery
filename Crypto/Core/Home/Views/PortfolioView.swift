@@ -102,4 +102,6 @@ extension PortfolioView {
                     .multilineTextAlignment(.trailing)
                     .keyboardType(.decimalPad)
             }
-     
+            Divider()
+            HStack {
+ 
