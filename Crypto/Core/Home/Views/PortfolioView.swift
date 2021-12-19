@@ -100,4 +100,6 @@ extension PortfolioView {
                 Spacer()
                 TextField("Ex: 1.4", text: $quantityText)
                     .multilineTextAlignment(.trailing)
-                    .keyboard
+                    .keyboardType(.decimalPad)
+            }
+     
