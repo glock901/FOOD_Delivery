@@ -99,4 +99,5 @@ extension PortfolioView {
                 Text("Amount holding:")
                 Spacer()
                 TextField("Ex: 1.4", text: $quantityText)
-                    .multili
+                    .multilineTextAlignment(.trailing)
+                    .keyboard
