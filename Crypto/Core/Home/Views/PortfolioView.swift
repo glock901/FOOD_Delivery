@@ -105,4 +105,5 @@ extension PortfolioView {
             Divider()
             HStack {
                 Text("Current Value:")
-           
+                Spacer()
+                Text(getC
