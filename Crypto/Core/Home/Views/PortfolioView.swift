@@ -106,4 +106,4 @@ extension PortfolioView {
             HStack {
                 Text("Current Value:")
                 Spacer()
-                Text(getC
+                Text(getCurrentValue().asCurrencyWith2Decimals
