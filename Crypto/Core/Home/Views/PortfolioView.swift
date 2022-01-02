@@ -111,4 +111,7 @@ extension PortfolioView {
         }
         .animation(.none, value: animate)
         .padding()
-  
+        .font(.headline)
+    }
+
+    var traili
