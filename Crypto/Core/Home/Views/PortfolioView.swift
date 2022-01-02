@@ -114,4 +114,5 @@ extension PortfolioView {
         .font(.headline)
     }
 
-    var traili
+    var trailingNavBarButtonsView: some View {
+        HStac
