@@ -109,4 +109,6 @@ extension PortfolioView {
                 Text(getCurrentValue().asCurrencyWith2Decimals())
             }
         }
-        .animation
+        .animation(.none, value: animate)
+        .padding()
+  
