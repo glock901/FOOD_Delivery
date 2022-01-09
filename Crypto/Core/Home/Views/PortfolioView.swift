@@ -115,4 +115,5 @@ extension PortfolioView {
     }
 
     var trailingNavBarButtonsView: some View {
-        HStac
+        HStack(spacing: 10) {
+            Image(systemName:
