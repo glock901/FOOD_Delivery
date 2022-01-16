@@ -116,4 +116,5 @@ extension PortfolioView {
 
     var trailingNavBarButtonsView: some View {
         HStack(spacing: 10) {
-            Image(systemName:
+            Image(systemName: "checkmark")
+                .opacity(sho
