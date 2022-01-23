@@ -120,3 +120,5 @@ extension PortfolioView {
                 .opacity(showCheckmark ? 1 : 0)
             Button {
                 saveButtonsPressed()
+            } label: {
+                Text
