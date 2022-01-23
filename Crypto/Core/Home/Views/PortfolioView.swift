@@ -118,4 +118,5 @@ extension PortfolioView {
         HStack(spacing: 10) {
             Image(systemName: "checkmark")
                 .opacity(showCheckmark ? 1 : 0)
-            Butt
+            Button {
+                saveButtonsPressed()
