@@ -125,4 +125,6 @@ extension PortfolioView {
             }
             .opacity(
                 (selectedCoin != nil && selectedCoin?.currentHoldings != Double(quantityText)) ? 1 : 0
-     
+            )
+        }
+        .font(.headlin
