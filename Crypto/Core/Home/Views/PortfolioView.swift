@@ -127,4 +127,8 @@ extension PortfolioView {
                 (selectedCoin != nil && selectedCoin?.currentHoldings != Double(quantityText)) ? 1 : 0
             )
         }
-        .font(.headlin
+        .font(.headline)
+    }
+
+    private func saveButtonsPressed() {
+    
