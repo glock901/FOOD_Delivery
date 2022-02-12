@@ -131,4 +131,4 @@ extension PortfolioView {
     }
 
     private func saveButtonsPressed() {
-    
+        guard let coin = selectedCoin else { retu
