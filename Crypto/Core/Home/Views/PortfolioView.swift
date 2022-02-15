@@ -137,4 +137,5 @@ extension PortfolioView {
 
         // show checkmark
         withAnimation {
-            showCheckm
+            showCheckmark = true
+            removeSelectedCoin()
