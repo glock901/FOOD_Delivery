@@ -135,4 +135,6 @@ extension PortfolioView {
 
         // save to portfolio
 
-        // show chec
+        // show checkmark
+        withAnimation {
+            showCheckm
