@@ -139,3 +139,7 @@ extension PortfolioView {
         withAnimation {
             showCheckmark = true
             removeSelectedCoin()
+        }
+
+        // hide keyboard
+        UIApplicatio
