@@ -142,4 +142,6 @@ extension PortfolioView {
         }
 
         // hide keyboard
-        UIApplicatio
+        UIApplication.shared.endEditing()
+
+        // hide c
