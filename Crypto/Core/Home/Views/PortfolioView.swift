@@ -144,4 +144,5 @@ extension PortfolioView {
         // hide keyboard
         UIApplication.shared.endEditing()
 
-        // hide c
+        // hide checkmark
+        DispatchQueue.main.asyncAfter(d
