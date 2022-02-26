@@ -146,4 +146,5 @@ extension PortfolioView {
 
         // hide checkmark
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            withAnim
+            withAnimation(.easeOut) {
+        
