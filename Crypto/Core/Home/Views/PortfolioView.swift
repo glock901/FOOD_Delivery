@@ -145,4 +145,5 @@ extension PortfolioView {
         UIApplication.shared.endEditing()
 
         // hide checkmark
-        DispatchQueue.main.asyncAfter(d
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            withAnim
