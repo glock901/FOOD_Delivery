@@ -148,4 +148,8 @@ extension PortfolioView {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
             withAnimation(.easeOut) {
                 showCheckmark = false
-            
+            }
+        }
+    }
+
+    private func
