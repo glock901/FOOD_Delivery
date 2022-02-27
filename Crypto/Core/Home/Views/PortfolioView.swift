@@ -152,4 +152,6 @@ extension PortfolioView {
         }
     }
 
-    private func
+    private func removeSelectedCoin() {
+        selectedCoin = nil
+        vm
