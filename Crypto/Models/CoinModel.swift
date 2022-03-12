@@ -1,0 +1,3 @@
+//
+//  CoinModel.swift
+//  Cry
