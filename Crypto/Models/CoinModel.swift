@@ -15,4 +15,6 @@ import Foundation
 
  {
  "id": "bitcoin",
- "symbol
+ "symbol": "btc",
+ "name": "Bitcoin",
+ "image": "https:/
