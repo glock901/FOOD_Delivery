@@ -18,4 +18,5 @@ import Foundation
  "symbol": "btc",
  "name": "Bitcoin",
  "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
- "current_price"
+ "current_price": 23952,
+ "market_cap": 457667970156
