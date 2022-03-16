@@ -17,4 +17,5 @@ import Foundation
  "id": "bitcoin",
  "symbol": "btc",
  "name": "Bitcoin",
- "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin
+ "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
+ "current_price"
