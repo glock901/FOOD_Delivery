@@ -21,4 +21,6 @@ import Foundation
  "current_price": 23952,
  "market_cap": 457667970156,
  "market_cap_rank": 1,
- "fully_diluted_valuati
+ "fully_diluted_valuation": 502987292909,
+ "total_volume": 60678909713,
+ "
