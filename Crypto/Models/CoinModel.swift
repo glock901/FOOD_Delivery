@@ -23,4 +23,5 @@ import Foundation
  "market_cap_rank": 1,
  "fully_diluted_valuation": 502987292909,
  "total_volume": 60678909713,
- "
+ "high_24h": 24605,
+ "low_24h": 23733,
