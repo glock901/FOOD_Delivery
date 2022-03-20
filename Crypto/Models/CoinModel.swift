@@ -26,4 +26,5 @@ import Foundation
  "high_24h": 24605,
  "low_24h": 23733,
  "price_change_24h": 172.12,
- "price_change_percentage_24
+ "price_change_percentage_24h": 0.72383,
+ "market_cap_change_24h": 3317
