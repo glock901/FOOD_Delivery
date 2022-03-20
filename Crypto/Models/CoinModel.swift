@@ -25,3 +25,5 @@ import Foundation
  "total_volume": 60678909713,
  "high_24h": 24605,
  "low_24h": 23733,
+ "price_change_24h": 172.12,
+ "price_change_percentage_24
