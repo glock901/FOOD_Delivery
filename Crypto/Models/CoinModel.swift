@@ -28,4 +28,6 @@ import Foundation
  "price_change_24h": 172.12,
  "price_change_percentage_24h": 0.72383,
  "market_cap_change_24h": 3317796129,
- "market_cap_change_percentage_24h": 0.73
+ "market_cap_change_percentage_24h": 0.73023,
+ "circulating_supply": 19107893,
+ "total_supply"
