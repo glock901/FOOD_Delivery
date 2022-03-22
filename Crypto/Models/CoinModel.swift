@@ -32,4 +32,5 @@ import Foundation
  "circulating_supply": 19107893,
  "total_supply": 21000000,
  "max_supply": 21000000,
- "ath": 69045
+ "ath": 69045,
+ "ath_change_percentage": -65.33399,
