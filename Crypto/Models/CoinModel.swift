@@ -37,4 +37,5 @@ import Foundation
  "ath_date": "2021-11-10T14:24:11.849Z",
  "atl": 67.81,
  "atl_change_percentage": 35197.77432,
- "
+ "atl_date": "2013-07-06T00:00:00.000Z",
+ "roi": null,
