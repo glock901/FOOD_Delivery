@@ -34,3 +34,5 @@ import Foundation
  "max_supply": 21000000,
  "ath": 69045,
  "ath_change_percentage": -65.33399,
+ "ath_date": "2021-11-10T14:24:11.849Z",
+ "atl": 6
