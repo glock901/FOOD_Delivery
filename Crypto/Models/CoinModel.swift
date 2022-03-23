@@ -35,4 +35,6 @@ import Foundation
  "ath": 69045,
  "ath_change_percentage": -65.33399,
  "ath_date": "2021-11-10T14:24:11.849Z",
- "atl": 6
+ "atl": 67.81,
+ "atl_change_percentage": 35197.77432,
+ "
