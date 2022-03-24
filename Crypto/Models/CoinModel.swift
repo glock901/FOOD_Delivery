@@ -42,3 +42,6 @@ import Foundation
  "last_updated": "2022-07-30T21:49:43.867Z",
  "sparkline_in_7d": {
  "price": [
+ 22067.867506426574,
+ 22157.856424820675,
+ 2
