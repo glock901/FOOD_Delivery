@@ -39,4 +39,6 @@ import Foundation
  "atl_change_percentage": 35197.77432,
  "atl_date": "2013-07-06T00:00:00.000Z",
  "roi": null,
- "last_updated": "2022-07-30T21:49:43
+ "last_updated": "2022-07-30T21:49:43.867Z",
+ "sparkline_in_7d": {
+ "price": [
