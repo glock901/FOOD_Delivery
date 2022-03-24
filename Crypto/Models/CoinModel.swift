@@ -44,4 +44,7 @@ import Foundation
  "price": [
  22067.867506426574,
  22157.856424820675,
- 2
+ 24533.92236738088
+ ]
+ },
+ "price_change_percentage_24h
