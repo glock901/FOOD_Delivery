@@ -47,4 +47,10 @@ import Foundation
  24533.92236738088
  ]
  },
- "price_change_percentage_24h
+ "price_change_percentage_24h_in_currency": 0.7238283007331945
+ }
+
+
+ */
+
+st
