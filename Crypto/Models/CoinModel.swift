@@ -53,4 +53,5 @@ import Foundation
 
  */
 
-st
+struct CoinModel: Identifiable, Codable {
+    let id, symbol
