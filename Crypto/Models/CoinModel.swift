@@ -56,4 +56,5 @@ import Foundation
 struct CoinModel: Identifiable, Codable {
     let id, symbol, name: String
     let image: String
-    let currentPr
+    let currentPrice: Double
+    let marketCap, marke
