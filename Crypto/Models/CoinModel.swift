@@ -54,4 +54,6 @@ import Foundation
  */
 
 struct CoinModel: Identifiable, Codable {
-    let id, symbol
+    let id, symbol, name: String
+    let image: String
+    let currentPr
