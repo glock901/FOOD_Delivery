@@ -61,4 +61,5 @@ struct CoinModel: Identifiable, Codable {
     let totalVolume, high24H, low24H: Double?
     let priceChange24H: Double?
     let priceChangePercentage24H: Double?
-    
+    let marketCapChange24H: Double?
+    let marketCa
