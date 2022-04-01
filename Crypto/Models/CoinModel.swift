@@ -66,4 +66,6 @@ struct CoinModel: Identifiable, Codable {
     let circulatingSupply, totalSupply, maxSupply, ath: Double?
     let athChangePercentage: Double?
     let athDate: String?
-    let atl, atlChangePercentage: Doub
+    let atl, atlChangePercentage: Double?
+    let atlDate: String?
+    let
