@@ -68,4 +68,5 @@ struct CoinModel: Identifiable, Codable {
     let athDate: String?
     let atl, atlChangePercentage: Double?
     let atlDate: String?
-    let
+    let lastUpdated: String?
+    let sparklineI
