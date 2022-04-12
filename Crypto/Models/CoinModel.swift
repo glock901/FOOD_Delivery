@@ -70,4 +70,5 @@ struct CoinModel: Identifiable, Codable {
     let atlDate: String?
     let lastUpdated: String?
     let sparklineIn7D: SparklineIn7D?
-    let priceChang
+    let priceChangePercentage24HInCurrency: Double?
+    let currentHoldi
