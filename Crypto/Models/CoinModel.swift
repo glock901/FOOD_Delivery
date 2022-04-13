@@ -71,4 +71,6 @@ struct CoinModel: Identifiable, Codable {
     let lastUpdated: String?
     let sparklineIn7D: SparklineIn7D?
     let priceChangePercentage24HInCurrency: Double?
-    let currentHoldi
+    let currentHoldings: Double?
+
+    enum CodingKeys: String, Codi
