@@ -73,4 +73,5 @@ struct CoinModel: Identifiable, Codable {
     let priceChangePercentage24HInCurrency: Double?
     let currentHoldings: Double?
 
-    enum CodingKeys: String, Codi
+    enum CodingKeys: String, CodingKey {
+        case id, symbol, name, ima
