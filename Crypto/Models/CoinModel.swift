@@ -76,4 +76,5 @@ struct CoinModel: Identifiable, Codable {
     enum CodingKeys: String, CodingKey {
         case id, symbol, name, image
         case currentPrice = "current_price"
-        case marketCap = "marke
+        case marketCap = "market_cap"
+        case marketCapRank = "marke
