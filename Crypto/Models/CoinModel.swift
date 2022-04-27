@@ -79,4 +79,6 @@ struct CoinModel: Identifiable, Codable {
         case marketCap = "market_cap"
         case marketCapRank = "market_cap_rank"
         case fullyDilutedValuation = "fully_diluted_valuation"
-        case totalVolume = "t
+        case totalVolume = "total_volume"
+        case high24H = "high_24h"
+     
