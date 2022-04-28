@@ -83,4 +83,4 @@ struct CoinModel: Identifiable, Codable {
         case high24H = "high_24h"
         case low24H = "low_24h"
         case priceChange24H = "price_change_24h"
-        case
+        case priceChangePercentage24H = "price
