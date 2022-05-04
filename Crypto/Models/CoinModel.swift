@@ -86,4 +86,5 @@ struct CoinModel: Identifiable, Codable {
         case priceChangePercentage24H = "price_change_percentage_24h"
         case marketCapChange24H = "market_cap_change_24h"
         case marketCapChangePercentage24H = "market_cap_change_percentage_24h"
-        case circulatingSupply =
+        case circulatingSupply = "circulating_supply"
+        case totalSup
