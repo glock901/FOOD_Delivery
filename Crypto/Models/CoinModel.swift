@@ -88,4 +88,6 @@ struct CoinModel: Identifiable, Codable {
         case marketCapChangePercentage24H = "market_cap_change_percentage_24h"
         case circulatingSupply = "circulating_supply"
         case totalSupply = "total_supply"
-        case maxSuppl
+        case maxSupply = "max_supply"
+        case ath
+        case ath
