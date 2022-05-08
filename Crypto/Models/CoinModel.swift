@@ -91,4 +91,6 @@ struct CoinModel: Identifiable, Codable {
         case maxSupply = "max_supply"
         case ath
         case athChangePercentage = "ath_change_percentage"
-        case 
+        case athDate = "ath_date"
+        case atl
+     
