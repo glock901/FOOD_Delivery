@@ -93,4 +93,4 @@ struct CoinModel: Identifiable, Codable {
         case athChangePercentage = "ath_change_percentage"
         case athDate = "ath_date"
         case atl
-     
+        case atlChangePercentage = "atl_change_percen
