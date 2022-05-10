@@ -97,4 +97,4 @@ struct CoinModel: Identifiable, Codable {
         case atlDate = "atl_date"
         case lastUpdated = "last_updated"
         case sparklineIn7D = "sparkline_in_7d"
-        case priceChange
+        case priceChangePercentage24HInCurrency = "price_c
