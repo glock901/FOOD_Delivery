@@ -101,4 +101,5 @@ struct CoinModel: Identifiable, Codable {
         case currentHoldings
     }
 
-    func updateHoldi
+    func updateHoldings(amount: Double) -> CoinModel {
+        re
