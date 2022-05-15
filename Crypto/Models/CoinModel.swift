@@ -102,4 +102,4 @@ struct CoinModel: Identifiable, Codable {
     }
 
     func updateHoldings(amount: Double) -> CoinModel {
-        re
+        return CoinModel(id: id, symbol: symbol, nam
