@@ -13,4 +13,4 @@ struct StatisticModel: Identifiable {
     let value: String
     let percentageChange: Double?
 
-    init(title:
+    init(title: String, value: String, percentageCha
