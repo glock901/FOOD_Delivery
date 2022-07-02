@@ -8,4 +8,6 @@
 import Foundation
 import Combine
 
-class 
+class CoinDataService {
+
+    @Published var 
