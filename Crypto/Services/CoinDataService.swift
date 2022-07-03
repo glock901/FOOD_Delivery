@@ -10,4 +10,6 @@ import Combine
 
 class CoinDataService {
 
-    @Published var 
+    @Published var allCoins: [CoinModel] = []
+
+    privat
