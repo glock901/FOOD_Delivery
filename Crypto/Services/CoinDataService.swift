@@ -12,4 +12,4 @@ class CoinDataService {
 
     @Published var allCoins: [CoinModel] = []
 
-    privat
+    private var coinSubscrition: AnyCancellable?
