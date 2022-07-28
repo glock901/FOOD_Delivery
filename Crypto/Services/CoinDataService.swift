@@ -19,4 +19,4 @@ class CoinDataService {
     }
 
     private func getcoins() {
-        guard let u
+        guard let url = URL(string: "https://api.coingecko.c
