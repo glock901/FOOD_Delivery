@@ -18,4 +18,5 @@ class CoinDataService {
         getcoins()
     }
 
-    priv
+    private func getcoins() {
+        guard let u
