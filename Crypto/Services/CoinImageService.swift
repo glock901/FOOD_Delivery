@@ -1,2 +1,5 @@
 //
-//  CoinImageService.swif
+//  CoinImageService.swift
+//  Crypto
+//
+//  Created by Jonni Akesson 
