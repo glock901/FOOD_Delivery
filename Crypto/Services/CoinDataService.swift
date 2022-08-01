@@ -23,4 +23,4 @@ class CoinDataService {
         else { return }
 
         coinSubscrition = NetworkingManager.download(url: url)
-            .
+            .decode(type: [CoinModel].self, decoder: J
