@@ -24,4 +24,4 @@ class CoinDataService {
 
         coinSubscrition = NetworkingManager.download(url: url)
             .decode(type: [CoinModel].self, decoder: JSONDecoder())
-            .sink(receiveCompletion
+            .sink(receiveCompletion: NetworkingManager.handleCompletion, receiveValue: 
