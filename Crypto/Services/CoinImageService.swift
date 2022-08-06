@@ -9,4 +9,6 @@ import Foundation
 import SwiftUI
 import Combine
 
-class Coi
+class CoinImageService {
+
+    @Published var ima
