@@ -11,4 +11,6 @@ import Combine
 
 class CoinImageService {
 
-    @Published var ima
+    @Published var image: UIImage? = nil
+
+    private var image
