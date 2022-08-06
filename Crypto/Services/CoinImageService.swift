@@ -13,4 +13,5 @@ class CoinImageService {
 
     @Published var image: UIImage? = nil
 
-    private var image
+    private var imageSubscription: AnyCancellable?
+    privat
