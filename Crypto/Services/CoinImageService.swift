@@ -15,4 +15,5 @@ class CoinImageService {
 
     private var imageSubscription: AnyCancellable?
     private let coin: CoinModel
-    private let fileManager = Lo
+    private let fileManager = LocalFileManager.instance
+    private let fol
