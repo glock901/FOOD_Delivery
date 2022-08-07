@@ -17,4 +17,7 @@ class CoinImageService {
     private let coin: CoinModel
     private let fileManager = LocalFileManager.instance
     private let folderName = "coin_images"
-    private let ima
+    private let imageName: String
+
+    init(coin: CoinModel) {
+   
