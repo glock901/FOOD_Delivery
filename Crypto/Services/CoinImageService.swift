@@ -20,4 +20,5 @@ class CoinImageService {
     private let imageName: String
 
     init(coin: CoinModel) {
-   
+        self.coin = coin
+        self.imageNa
