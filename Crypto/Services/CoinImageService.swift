@@ -25,4 +25,5 @@ class CoinImageService {
         getCoinImage()
     }
 
-    pr
+    private func getCoinImage() {
+        if let savedI
