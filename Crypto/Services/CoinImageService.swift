@@ -30,4 +30,5 @@ class CoinImageService {
             image = savedImage
             print("retrived image from file manger")
         } else {
-   
+            downloadCoinImage()
+            print("down
