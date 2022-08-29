@@ -31,4 +31,8 @@ class CoinImageService {
             print("retrived image from file manger")
         } else {
             downloadCoinImage()
-            print("down
+            print("download image now")
+        }
+    }
+
+    priva
