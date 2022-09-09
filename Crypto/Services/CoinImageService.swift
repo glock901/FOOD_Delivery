@@ -35,4 +35,5 @@ class CoinImageService {
         }
     }
 
-    priva
+    private func downloadCoinImage() {
+        guard l
