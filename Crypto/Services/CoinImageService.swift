@@ -36,4 +36,4 @@ class CoinImageService {
     }
 
     private func downloadCoinImage() {
-        guard l
+        guard let url = URL(string: coin.image) else { ret
