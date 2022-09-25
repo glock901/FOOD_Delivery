@@ -41,4 +41,4 @@ class CoinImageService {
             .tryMap({ data -> UIImage? in
                 return UIImage(data: data)
             })
-  
+            .sink(receiveCompletion: 
