@@ -43,4 +43,4 @@ class CoinImageService {
             })
             .sink(receiveCompletion: NetworkingManager.handleCompletion, receiveValue: { [weak self] returnedImage in
                 guard let self = self,
-    
+                      let downLoadedImage = 
