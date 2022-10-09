@@ -46,4 +46,5 @@ class CoinImageService {
                       let downLoadedImage = returnedImage
                 else { return }
                 self.image = downLoadedImage
-                self.ima
+                self.imageSubscription?.cancel()
+           
