@@ -45,3 +45,4 @@ class CoinImageService {
                 guard let self = self,
                       let downLoadedImage = returnedImage
                 else { return }
+                self.image 
