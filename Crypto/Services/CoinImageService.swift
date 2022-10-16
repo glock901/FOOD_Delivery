@@ -47,4 +47,4 @@ class CoinImageService {
                 else { return }
                 self.image = downLoadedImage
                 self.imageSubscription?.cancel()
-                self.fileManager.saveImage(image: downLoad
+                self.fileManager.saveImage(image: downLoadedImage, imageName: self.imageName, folderName: self.f
