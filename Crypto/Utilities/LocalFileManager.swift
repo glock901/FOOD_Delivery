@@ -10,4 +10,6 @@ import SwiftUI
 
 // Generic file manager
 
-class Lo
+class LocalFileManager {
+
+    static let instance = Loc
