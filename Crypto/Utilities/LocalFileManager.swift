@@ -6,4 +6,8 @@
 //
 
 import Foundation
-import
+import SwiftUI
+
+// Generic file manager
+
+class Lo
