@@ -16,4 +16,5 @@ class LocalFileManager {
 
     private init() { }
 
-    func saveImage(image: UIImage, imageN
+    func saveImage(image: UIImage, imageName: String, folderName: String) {
+        //c
