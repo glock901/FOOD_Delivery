@@ -18,4 +18,6 @@ class LocalFileManager {
 
     func saveImage(image: UIImage, imageName: String, folderName: String) {
         //crate folder
-        createFolderIfNe
+        createFolderIfNeeded(folderName: folderName)
+
+        // get
