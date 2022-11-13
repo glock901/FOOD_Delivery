@@ -26,4 +26,6 @@ class LocalFileManager {
             let url = getURLForImage(imageName: imageName, folderName: folderName)
         else { return }
 
-        // save 
+        // save image to path
+        do {
+            try
