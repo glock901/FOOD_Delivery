@@ -20,4 +20,6 @@ class LocalFileManager {
         //crate folder
         createFolderIfNeeded(folderName: folderName)
 
-        // get
+        // get path to image
+        guard
+            let data = ima
