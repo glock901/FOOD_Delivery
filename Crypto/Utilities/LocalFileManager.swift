@@ -28,4 +28,6 @@ class LocalFileManager {
 
         // save image to path
         do {
-            try
+            try data.write(to: url)
+        } catch let error {
+      
