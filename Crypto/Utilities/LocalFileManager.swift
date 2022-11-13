@@ -22,4 +22,5 @@ class LocalFileManager {
 
         // get path to image
         guard
-            let data = ima
+            let data = image.pngData(),
+            let url = get
