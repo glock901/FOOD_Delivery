@@ -34,4 +34,4 @@ class LocalFileManager {
         }
     }
 
-    fu
+    func getImage(imageName: String, folderName: Str
