@@ -30,4 +30,8 @@ class LocalFileManager {
         do {
             try data.write(to: url)
         } catch let error {
-            print("error saving image. ImageName: \(
+            print("error saving image. ImageName: \(imageName) \(error)")
+        }
+    }
+
+    fu
