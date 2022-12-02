@@ -36,4 +36,5 @@ class LocalFileManager {
 
     func getImage(imageName: String, folderName: String) -> UIImage? {
         guard
-            let url = getURLForImage(imageName: imageName, fol
+            let url = getURLForImage(imageName: imageName, folderName: folderName),
+            FileMan
