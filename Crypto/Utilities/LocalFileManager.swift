@@ -39,4 +39,7 @@ class LocalFileManager {
             let url = getURLForImage(imageName: imageName, folderName: folderName),
             FileManager.default.fileExists(atPath: url.path) else
         { return nil }
-        return UIImage(c
+        return UIImage(contentsOfFile: url.path)
+    }
+
+    privat
