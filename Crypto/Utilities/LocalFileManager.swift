@@ -44,4 +44,4 @@ class LocalFileManager {
 
     private func createFolderIfNeeded(folderName: String) {
         guard let url = getURLForFolder(folderName: folderName) else { return }
-        i
+        if !FileManager.default.fileExists(atPath: url.
