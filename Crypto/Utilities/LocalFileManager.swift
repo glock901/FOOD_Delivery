@@ -42,4 +42,5 @@ class LocalFileManager {
         return UIImage(contentsOfFile: url.path)
     }
 
-    private func createFolderIfNeeded(folderName: Strin
+    private func createFolderIfNeeded(folderName: String) {
+        guard let url = getURLForFolder(fol
