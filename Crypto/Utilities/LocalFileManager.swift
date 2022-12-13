@@ -43,4 +43,5 @@ class LocalFileManager {
     }
 
     private func createFolderIfNeeded(folderName: String) {
-        guard let url = getURLForFolder(fol
+        guard let url = getURLForFolder(folderName: folderName) else { return }
+        i
