@@ -42,4 +42,4 @@ class LocalFileManager {
         return UIImage(contentsOfFile: url.path)
     }
 
-    privat
+    private func createFolderIfNeeded(folderName: Strin
