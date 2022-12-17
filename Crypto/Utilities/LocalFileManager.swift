@@ -46,4 +46,4 @@ class LocalFileManager {
         guard let url = getURLForFolder(folderName: folderName) else { return }
         if !FileManager.default.fileExists(atPath: url.path) {
             do {
-                try FileManager.default.createDirectory(at:
+                try FileManager.default.createDirectory(at: url, withIntermediateDirectories: true, at
