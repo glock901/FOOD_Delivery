@@ -47,4 +47,5 @@ class LocalFileManager {
         if !FileManager.default.fileExists(atPath: url.path) {
             do {
                 try FileManager.default.createDirectory(at: url, withIntermediateDirectories: true, attributes: nil)
-            } catch let erro
+            } catch let error {
+                print("error crea
