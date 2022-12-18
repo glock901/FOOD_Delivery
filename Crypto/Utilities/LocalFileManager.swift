@@ -48,4 +48,4 @@ class LocalFileManager {
             do {
                 try FileManager.default.createDirectory(at: url, withIntermediateDirectories: true, attributes: nil)
             } catch let error {
-                print("error crea
+                print("error creating directory. Folder name: \(folderNam
