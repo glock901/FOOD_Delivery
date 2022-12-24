@@ -53,4 +53,6 @@ class LocalFileManager {
         }
     }
 
-    private func getURLForFolder(folderNam
+    private func getURLForFolder(folderName: String) -> URL? {
+        guard
+       
