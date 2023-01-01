@@ -58,4 +58,7 @@ class LocalFileManager {
             let url = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first
         else { return nil}
 
-        return url.appendingPathComponent
+        return url.appendingPathComponent(folderName)
+    }
+
+    private func getURLForIm
