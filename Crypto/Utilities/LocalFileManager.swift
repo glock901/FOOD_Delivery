@@ -61,4 +61,5 @@ class LocalFileManager {
         return url.appendingPathComponent(folderName)
     }
 
-    private func getURLForIm
+    private func getURLForImage(imageName: String, folderName: String) -> URL? {
+ 
