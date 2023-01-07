@@ -63,4 +63,5 @@ class LocalFileManager {
 
     private func getURLForImage(imageName: String, folderName: String) -> URL? {
         guard
-            let folderURL 
+            let folderURL = getURLForFolder(folderName: folderName)
+    
