@@ -66,4 +66,4 @@ class LocalFileManager {
             let folderURL = getURLForFolder(folderName: folderName)
         else { return nil }
 
-        return folderURL.a
+        return folderURL.appendingPathComponent(imageName + ".p
