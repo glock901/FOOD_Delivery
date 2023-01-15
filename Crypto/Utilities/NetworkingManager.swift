@@ -2,4 +2,7 @@
 //  NetworkingManager.swift
 //  Crypto
 //
-//  Created by J
+//  Created by Jonni Akesson on 2022-07-31.
+//
+
+import Foundatio
