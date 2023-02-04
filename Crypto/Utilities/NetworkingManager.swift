@@ -10,4 +10,5 @@ import Combine
 
 class NetworkingManager {
     enum NetworkError: LocalizedError {
- 
+        case barURLResponse(url: URL)
+       
