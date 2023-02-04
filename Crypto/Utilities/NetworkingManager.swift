@@ -9,4 +9,5 @@ import Foundation
 import Combine
 
 class NetworkingManager {
-  
+    enum NetworkError: LocalizedError {
+ 
