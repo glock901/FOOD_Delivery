@@ -13,4 +13,6 @@ class NetworkingManager {
         case barURLResponse(url: URL)
         case unknown
 
-        var errorDescription: Str
+        var errorDescription: String? {
+            switch self {
+            case 
