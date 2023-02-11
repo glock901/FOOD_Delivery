@@ -15,4 +15,5 @@ class NetworkingManager {
 
         var errorDescription: String? {
             switch self {
-            case 
+            case .barURLResponse(url: let url):
+             
