@@ -22,3 +22,5 @@ class NetworkingManager {
             }
         }
     }
+
+    static func download(url: URL) -> 
