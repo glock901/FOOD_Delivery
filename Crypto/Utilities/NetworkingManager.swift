@@ -23,4 +23,5 @@ class NetworkingManager {
         }
     }
 
-    static func download(url: URL) -> 
+    static func download(url: URL) -> AnyPublisher<Data, Error> {
+        return URL
