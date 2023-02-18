@@ -24,4 +24,4 @@ class NetworkingManager {
     }
 
     static func download(url: URL) -> AnyPublisher<Data, Error> {
-        return URL
+        return URLSession.shared.dataTaskPublisher(for: 
