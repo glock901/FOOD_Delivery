@@ -28,4 +28,7 @@ class NetworkingManager {
             .subscribe(on: DispatchQueue.global(qos: .default))
             .tryMap({try handleUrlResponse(output: $0, url: url)})
             .receive(on: DispatchQueue.main)
-  
+            .eraseToAnyPublisher()
+    }
+
+    
