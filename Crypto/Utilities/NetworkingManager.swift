@@ -31,4 +31,5 @@ class NetworkingManager {
             .eraseToAnyPublisher()
     }
 
-    static func handleUrlResponse(output: URLSession.DataTaskPublisher.Output,
+    static func handleUrlResponse(output: URLSession.DataTaskPublisher.Output, url: URL) throws -> Data {
+        guard 
