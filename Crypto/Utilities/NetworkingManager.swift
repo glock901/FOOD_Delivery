@@ -36,4 +36,7 @@ class NetworkingManager {
               restponse.statusCode >= 200 && restponse.statusCode < 300 else {
             throw NetworkError.barURLResponse(url: url)
         }
-        r
+        return output.data
+    }
+
+    static func han
