@@ -32,4 +32,5 @@ class NetworkingManager {
     }
 
     static func handleUrlResponse(output: URLSession.DataTaskPublisher.Output, url: URL) throws -> Data {
-        guard let restponse = output.response as? HT
+        guard let restponse = output.response as? HTTPURLResponse,
+              restponse.statu
