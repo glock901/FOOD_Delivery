@@ -39,4 +39,4 @@ class NetworkingManager {
         return output.data
     }
 
-    static func han
+    static func handleCompletion(completion: Subscribers
