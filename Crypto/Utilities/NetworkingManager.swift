@@ -43,4 +43,5 @@ class NetworkingManager {
         switch completion {
         case .finished:
             break
- 
+        case .failure(let error):
+            
