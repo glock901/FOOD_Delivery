@@ -1,0 +1,36 @@
+
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA00C99E289B10FD006660E7 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00C99D289B10FD006660E7 /* StatisticModel.swift */; };
+		FA00C9A0289B1230006660E7 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00C99F289B1230006660E7 /* StatisticView.swift */; };
+		FA00C9A2289B1604006660E7 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00C9A1289B1604006660E7 /* HomeStatsView.swift */; };
+		FA2F1B7528ABB7E600C7CDFD /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F1B7428ABB7E600C7CDFD /* PortfolioView.swift */; };
+		FA2F1B7928ABCB8E00C7CDFD /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F1B7828ABCB8E00C7CDFD /* CoinLogoView.swift */; };
+		FA36F8F22895C9BF00780210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA36F8F12895C9BF00780210 /* Assets.xcassets */; };
+		FA36F8F42895C9FF00780210 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36F8F32895C9FF00780210 /* Color.swift */; };
+		FA36F8FB2895CB5400780210 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36F8FA2895CB5400780210 /* HomeView.swift */; };
+		FA36F8FF2895CC7700780210 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36F8FE2895CC7700780210 /* CircleButtonView.swift */; };
+		FA36F9012895D21700780210 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36F9002895D21700780210 /* CircleButtonAnimationView.swift */; };
+		FA36F9042895DD8E00780210 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36F9032895DD8E00780210 /* CoinModel.swift */; };
+		FA36F9062895E48200780210 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36F9052895E48200780210 /* CoinRowView.swift */; };
+		FA36F9082895E4E800780210 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36F9072895E4E800780210 /* PreviewProvider.swift */; };
+		FA36F90A2895E78900780210 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36F9092895E78900780210 /* Double.swift */; };
+		FA36F90C2895EDB200780210 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36F90B2895EDB200780210 /* HomeViewModel.swift */; };
+		FA4ECB752895BF5A00AB07D2 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4ECB742895BF5A00AB07D2 /* CryptoApp.swift */; };
+		FA4ECB7C2895BF5B00AB07D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4ECB7B2895BF5B00AB07D2 /* Preview Assets.xcassets */; };
+		FAC0A9B92899B6AF00065DCB /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0A9B82899B6AF00065DCB /* LocalFileManager.swift */; };
+		FAC0A9BB2899C10700065DCB /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0A9BA2899C10700065DCB /* SearchBarView.swift */; };
+		FAC0A9BD2899C63D00065DCB /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0A9BC2899C63D00065DCB /* UIApplication.swift */; };
+		FACE417028A840F000FCC8A1 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE416F28A840F000FCC8A1 /* MarketDataModel.swift */; };
+		FACE417228A8433700FCC8A1 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE417128A8433700FCC8A1 /* MarketDataService.swift */; };
+		FAFBEBE128967B05003013A2 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBEBE028967B05003013A2 /* CoinDataService.swift */; };
+		FAFBEBE428968691003013A2 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBEBE328968691003013A2 /* NetworkingManager.swift */; };
+		FAFBEBE728969346003013A2 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBEBE628969346003013A2 /* CoinImageView.swift */; };
+		FAFBEBE928969536003013A2 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBEBE828969536003013A2 /* CoinImageService.swift */; };
