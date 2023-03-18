@@ -82,3 +82,44 @@
 		FA36F8F52895CA0500780210 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FAC0A9BC2899C63D00065DCB /* UIApplication.swift */,
+				FA36F9092895E78900780210 /* Double.swift */,
+				FA36F8F32895C9FF00780210 /* Color.swift */,
+				FA36F9072895E4E800780210 /* PreviewProvider.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA36F8F62895CB1000780210 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FA36F8FC2895CC3F00780210 /* Components */,
+				FA36F8F72895CB1700780210 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FA36F8F72895CB1700780210 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA36F8F92895CB2E00780210 /* ViewModels */,
+				FA36F8F82895CB2300780210 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA36F8F82895CB2300780210 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA36F8FA2895CB5400780210 /* HomeView.swift */,
+				FA00C9A1289B1604006660E7 /* HomeStatsView.swift */,
+				FA36F9052895E48200780210 /* CoinRowView.swift */,
+				FA2F1B7428ABB7E600C7CDFD /* PortfolioView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA36F8F92895CB2E00780210 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA36F90B2895EDB200780210 /* HomeViewModel.swift */,
