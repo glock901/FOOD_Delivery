@@ -123,3 +123,46 @@
 			isa = PBXGroup;
 			children = (
 				FA36F90B2895EDB200780210 /* HomeViewModel.swift */,
+				FAFBEBEA2896972E003013A2 /* CoinImageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA36F8FC2895CC3F00780210 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAFBEBE528969334003013A2 /* CoinImage */,
+				FA36F8FD2895CC5800780210 /* CircleButton */,
+				FAC0A9BE2899C8F400065DCB /* SearchBar */,
+				FA00C99F289B1230006660E7 /* StatisticView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA36F8FD2895CC5800780210 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				FA36F8FE2895CC7700780210 /* CircleButtonView.swift */,
+				FA36F9002895D21700780210 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		FA36F9022895DD6D00780210 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA36F9032895DD8E00780210 /* CoinModel.swift */,
+				FA00C99D289B10FD006660E7 /* StatisticModel.swift */,
+				FACE416F28A840F000FCC8A1 /* MarketDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA4ECB682895BF5A00AB07D2 = {
+			isa = PBXGroup;
+			children = (
+				FA4ECB732895BF5A00AB07D2 /* Crypto */,
+				FA4ECB722895BF5A00AB07D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
