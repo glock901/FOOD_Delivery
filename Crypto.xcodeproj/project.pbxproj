@@ -217,3 +217,42 @@
 		};
 		FAFBEBE22896865E003013A2 /* Utilities */ = {
 			isa = PBXGroup;
+			children = (
+				FAFBEBE328968691003013A2 /* NetworkingManager.swift */,
+				FAC0A9B82899B6AF00065DCB /* LocalFileManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FAFBEBE528969334003013A2 /* CoinImage */ = {
+			isa = PBXGroup;
+			children = (
+				FAFBEBE628969346003013A2 /* CoinImageView.swift */,
+				FA2F1B7828ABCB8E00C7CDFD /* CoinLogoView.swift */,
+			);
+			path = CoinImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4ECB702895BF5A00AB07D2 /* Crypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4ECB7F2895BF5B00AB07D2 /* Build configuration list for PBXNativeTarget "Crypto" */;
+			buildPhases = (
+				FA4ECB6D2895BF5A00AB07D2 /* Sources */,
+				FA4ECB6E2895BF5A00AB07D2 /* Frameworks */,
+				FA4ECB6F2895BF5A00AB07D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crypto;
+			productName = Crypto;
+			productReference = FA4ECB712895BF5A00AB07D2 /* Crypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
