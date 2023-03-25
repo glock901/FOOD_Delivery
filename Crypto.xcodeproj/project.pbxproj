@@ -166,3 +166,54 @@
 			);
 			sourceTree = "<group>";
 		};
+		FA4ECB722895BF5A00AB07D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4ECB712895BF5A00AB07D2 /* Crypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4ECB732895BF5A00AB07D2 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				FA4ECB742895BF5A00AB07D2 /* CryptoApp.swift */,
+				FAFBEBE22896865E003013A2 /* Utilities */,
+				FAFBEBDF28967ADA003013A2 /* Services */,
+				FA36F9022895DD6D00780210 /* Models */,
+				FA36F8F62895CB1000780210 /* Core */,
+				FA36F8F52895CA0500780210 /* Extensions */,
+				FA36F8F12895C9BF00780210 /* Assets.xcassets */,
+				FA4ECB7A2895BF5B00AB07D2 /* Preview Content */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		FA4ECB7A2895BF5B00AB07D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA4ECB7B2895BF5B00AB07D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAC0A9BE2899C8F400065DCB /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				FAC0A9BA2899C10700065DCB /* SearchBarView.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		FAFBEBDF28967ADA003013A2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAFBEBE028967B05003013A2 /* CoinDataService.swift */,
+				FAFBEBE828969536003013A2 /* CoinImageService.swift */,
+				FACE417128A8433700FCC8A1 /* MarketDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FAFBEBE22896865E003013A2 /* Utilities */ = {
+			isa = PBXGroup;
