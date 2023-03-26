@@ -256,3 +256,62 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+		FA4ECB692895BF5A00AB07D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FA4ECB702895BF5A00AB07D2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FA4ECB6C2895BF5A00AB07D2 /* Build configuration list for PBXProject "Crypto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4ECB682895BF5A00AB07D2;
+			productRefGroup = FA4ECB722895BF5A00AB07D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4ECB702895BF5A00AB07D2 /* Crypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4ECB6F2895BF5A00AB07D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4ECB7C2895BF5B00AB07D2 /* Preview Assets.xcassets in Resources */,
+				FA36F8F22895C9BF00780210 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4ECB6D2895BF5A00AB07D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA00C99E289B10FD006660E7 /* StatisticModel.swift in Sources */,
+				FA2F1B7928ABCB8E00C7CDFD /* CoinLogoView.swift in Sources */,
+				FACE417228A8433700FCC8A1 /* MarketDataService.swift in Sources */,
+				FA00C9A0289B1230006660E7 /* StatisticView.swift in Sources */,
+				FAC0A9BD2899C63D00065DCB /* UIApplication.swift in Sources */,
+				FAFBEBEB2896972E003013A2 /* CoinImageViewModel.swift in Sources */,
+				FAFBEBE728969346003013A2 /* CoinImageView.swift in Sources */,
+				FA36F8FB2895CB5400780210 /* HomeView.swift in Sources */,
+				FA2F1B7528ABB7E600C7CDFD /* PortfolioView.swift in Sources */,
+				FA4ECB752895BF5A00AB07D2 /* CryptoApp.swift in Sources */,
+				FA36F9012895D21700780210 /* CircleButtonAnimationView.swift in Sources */,
+				FA36F90C2895EDB200780210 /* HomeViewModel.swift in Sources */,
